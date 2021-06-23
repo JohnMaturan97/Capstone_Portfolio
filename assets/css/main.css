@@ -3,14 +3,14 @@
 /*  CSS VARIABLES */
 /* Colors */
 :root {
-  --color-white: #fff;
-  --color-blue: #7854f7;
-  --color-black: #18191f;
-  --color-grey: #474a57;
-  --color-skyblue: #e7f6fd;
-  --bg-color-black: #0b0d17;
-  --bg-color-grey: #f4f5f7;
-  --bg-dark: #20263c;
+  --color-white: #dd6c3f;
+  --color-blue: #424242;
+  --color-black: #424242;
+  --color-grey: #212227;
+  --color-skyblue: #e2774c;
+  --bg-color-black: #120b17;
+  --bg-color-grey: #8f8f8f;
+  --bg-dark: #e2dbdb;
 }
 
 /* Font size */
@@ -356,10 +356,12 @@ header.fixed nav {
 }
 .social {
   margin-top: 50px;
+  color: #a0380b;
 }
 .social ul li {
   display: inline-block;
   margin-right: 25px;
+  color: #a0380b;
 }
 
 /* Features */
@@ -702,7 +704,7 @@ header.fixed nav {
 /* Contact Me */
 .contact-inner {
   padding: 40px 40px;
-  background: var(--bg-color-grey);
+  background: var(--bg-color-red);
   border-radius: var(--border-radius);
   flex-wrap: wrap;
   gap: 30px;
