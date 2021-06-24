@@ -597,7 +597,7 @@ header.fixed nav {
 .project-item .project-image img {
   border-radius: 5px 5px 0 0;
   width: 100%;
-  height: 330px;
+  height: 295px;
   object-fit: cover;
 }
 
